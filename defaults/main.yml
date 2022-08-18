@@ -77,6 +77,9 @@ dnsmasq_dhcp_scopes:
   #   interface:                     eth1
 
 # Disables updating resolv.conf to use 127.0.0.1 as the only nameserver
+dnsmasq_disable_resolv: false
+
+# Should we listen on interface lo
 dnsmasq_disable_lo: false
 
 # Define your dns search
